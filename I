@@ -1,0 +1,74 @@
+<section class="footer">
+            <div class="footer-title">
+                <div class="contact">
+                    <h1 class="c-header dark-1">Lets Connect</h1>
+                    <p class="c-title dark-2">
+                        Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday
+                    </p>
+                </div>
+                <div class="User-input">
+                    <h1 class="c-header dark-1">
+                        Let’s Message me
+                    </h1>
+                    <div class="P-Inf">
+                        <!-- your-name -->
+                        <label for="your-name"></label>
+                        <input type="text" name="your-name" id="your-name" placeholder="Your name">
+
+                        <!-- your-email -->
+                        <label for="your-email"></label>
+                        <input type="email" name="your-email" id="your-email" placeholder="Your Email">
+
+                        <!-- Massage -->
+                         <label for="msg"></label>
+                        <textarea name="msg" id="msg" placeholder="Message"></textarea>
+                    </div>
+                    
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        /* footer */
+        .footer{
+            background-color: #FFF8F3;
+            
+        }
+        /* footer-title */
+        .footer-title{
+            display: flex;
+            gap: 117px;
+            width: 1233px;
+            margin: 130px auto;
+            padding:130px 0;
+        
+        }
+        /* c-header */
+        .c-header{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        /* c-title */
+        .c-title{
+            line-height: 28px;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        /* personal-Information */
+         .P-Inf{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+         }
+        /* your-name */
+        .your-name{
+            border-radius: 42px;
+        }
+        /* your-email */
+        .your-email{
+        
+        }
