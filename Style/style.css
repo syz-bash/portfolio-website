@@ -293,11 +293,47 @@ footer{
     display: none;
 } */
  @media screen and (max-width:576px) {
+    /* .Header */
+    .header{
+        margin-left: 10px;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        grid-template-rows: repeat(2,1);
+        margin: 0;
+    
+    }
+    nav .nav-nm{
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .Banner{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        justify-content: space-between;
+    }
+    .b-img{
+        width: 80%;
+        height: 80%;
+        padding-left: 70px;
+        /* transform: scaleX(-1); */
+    }
+    .Header{
+        background-image: none;
+    }
+
+
     /* About Me */
     .main-1{
-        width: 100%;
+        
+        width: auto;
         padding: 0;
-        /* margin: 0; */
+        margin: 20px;
 
     }
     .about-items{
@@ -381,5 +417,5 @@ footer{
         width: auto;
         
     }
-
+    
 }
